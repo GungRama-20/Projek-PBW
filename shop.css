@@ -1,0 +1,108 @@
+#body{
+    background-color: #E8E8E8;
+    color: black;
+}
+#nav-kanan {
+    width: 200px;
+    margin-right: 40px;
+    height: 40px;
+    float: right;
+}
+.navkanan-search-box {
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+    background: #ffffff;
+    padding: 8px 12px;
+    border-radius: 15px;
+    width: 180px;
+}
+.navkanan-search-box input {
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 16px;
+    margin-left: 8px;
+    flex: 1;
+    font-family: "Poppins", serif;
+    font-style: normal;
+}
+.navkanan-search-box button {
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 5px;
+    margin-top: 2px;
+    margin-right: auto;
+    margin-left: 4px;
+    flex: 1;
+    fill: #868585;
+}
+
+#nav-kiri {
+    display: flex;
+    flex-direction: row;
+    align-items : center;
+    justify-content: center;
+    float: left;
+    margin-left: 20px;            ;
+    margin-top: 20px;
+}
+#navkiri-box-btn2 {
+    border: none;
+    width: 70px;
+    background: transparent;
+    outline: none;
+    font-size: 5px;
+    margin-top: 2px;
+    margin-right: auto;
+    margin-left: 4px;
+    flex: 1;
+    fill: #868585;
+}
+.navkiri-item-1 {
+    width: 80px;
+    font-family: "Poppins", serif;
+    font-size: 18px;
+    font-style: normal;
+    color: #868585;
+}
+.navkiri-item-2 {
+    width: 80px;
+    font-family: "Poppins", serif;
+    font-size: 17px;
+    font-style: normal;
+    color: black;
+}
+.navkiri-item-3 {
+    width: 80px;
+    font-family: "Poppins", serif;
+    font-size: 17px;
+    font-style: normal;
+    color: #868585;
+}
+#nav-tengah {
+    position: relative;
+    display: flex;
+    width: 700px;
+    height: auto;
+    justify-content: center;
+}
+#navtengah-img {
+    margin-top: 10px;
+    width: 150px;
+    height: auto;
+}
+button {
+    text-decoration: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: none;
+}
