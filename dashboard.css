@@ -397,27 +397,182 @@ a:hover {
     font-weight: 400;
     font-style: normal;
 }
-.slider-container {
-    width: 80%;
-    overflow: hidden;
-    position: relative;
-    white-space: nowrap;
-}
-.slider {
+.slider-instagram {
     display: flex;
-    animation: slideLeft 10s linear infinite;
+    justify-content: center;
+    align-items: center;
+    margin-top: -750px;
+    gap: 60px;
+    flex-wrap: nowrap;
 }
-.slider img {
-    width: 200px;
-    height: auto;
-    margin: 10px;
-    border-radius: 5px;
+.slider-track {
+    display: flex;
+    width: calc(180px * 12 + 30px * 12); /* Hitung jumlah gambar + margin */
+    animation: scrollLeft 10s linear infinite;
 }
-@keyframes slideLeft {
+.img-slide1 {
+    width: 180px;
+    height: 180px;
+    position: relative;
+    top: -70px;
+    margin-right: 30px;
+    object-fit: cover;
+    gap: 50px;
+    border-radius: 10px;
+}
+.img-slide2 {
+    width: 180px;
+    height: 180px;
+    position: relative;
+    margin-right: 30px;
+    top: 30px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.img-slide3 {
+    width: 180px;
+    height: 180px;
+    position: relative;
+    margin-right: 30px;
+    top: -70px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.img-slide4 {
+    width: 180px;
+    height: 180px;
+    position: relative;
+    margin-right: 30px;
+    top: 30px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.img-slide5 {
+    width: 180px;
+    height: 180px;
+    position: relative;
+    margin-right: 30px;
+    top: -70px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.img-slide6 {
+    width: 180px;
+    height: 180px;
+    position: relative;
+    margin-right: 30px;
+    top: 30px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+@keyframes scrollLeft {
     from {
         transform: translateX(0);
     }
     to {
-        transform: translateX(-100%);
+        transform: translateX(-50%);
     }
+}
+.slider-track:hover {
+    animation-play-state: paused; /* Pause animasi saat hover */
+}
+
+.hr {
+    margin-top: 100px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #E8E8E8;
+    padding: 20px 40px;
+    font-family: "Poppins", sans-serif;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-section h4 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-family: "Poppins", sans-serif;
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    margin-bottom: 5px;
+    font-family: "Poppins", sans-serif;
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter-box {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    border-radius: 20px;
+    padding: 5px 10px;
+    width: 180px;
+}
+
+.newsletter-box input {
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 12px;
+    flex: 1;
+    outline: none;
+}
+
+.newsletter-box button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.hr1 {
+    margin-top: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E8E8E8; /* Warna latar belakang */
+    padding: 10px 40px;
+    font-family: Arial, sans-serif;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.footer-links {
+    display: flex;
+    font-family: "Poppins",sans-serif;
+    gap: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
 }
