@@ -4,7 +4,8 @@
 }
 #nav-kanan {
     width: 200px;
-    margin-right: 40px;
+    margin-left: 1100px;
+    position: absolute;
     height: 40px;
     float: right;
 }
@@ -45,20 +46,12 @@
     align-items : center;
     justify-content: center;
     float: left;
-    margin-left: 20px;            ;
-    margin-top: 20px;
+    margin-left: 30px;            ;
+    margin-top: 10px;
 }
 #navkiri-box-btn2 {
     border: none;
-    width: 70px;
-    background: transparent;
-    outline: none;
-    font-size: 5px;
-    margin-top: 2px;
-    margin-right: auto;
-    margin-left: 4px;
-    flex: 1;
-    fill: #868585;
+    width: 60px;
 }
 .navkiri-item-1 {
     width: 80px;
@@ -81,107 +74,34 @@
     color: #868585;
 }
 #nav-tengah {
-    position: relative;
+    position: absolute;
     display: flex;
     width: 700px;
+    margin-top: 20px;
     height: auto;
+    font-family: "Italiana", serif;
+    font-size: 30px;
+    margin-left: 300px;
     justify-content: center;
-}
-#navtengah-img {
-    margin-top: 10px;
-    width: 150px;
-    height: auto;
 }
 #judul-kiri {
     width: 600px;
     font-size: 90px;
     margin-left: 45px;
+    position: absolute;
+    margin-top: 80px;
     float: left;
     font-family: "Italiana", serif;
     font-weight: 400;
     font-style: normal;
 }
-.img2 {
-    width: 95px;
-    position: relative;
-    margin-right: -10px;
-    height: auto;
-    float: right;
-}
-#judul-kanan {
-    width: 390px;
-    margin-top: 150px;
-    margin-right: 5px;
-    font-size: 90px;
-    text-align: right;
-    float: right;
-    font-family: "Poppins", serif;
-    font-size: small;
-    font-style: normal;
-}
-.img-atas {
-    margin: 300px;
+#garis1 {
     justify-content: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 25px;
+    margin-top: 80px;
+    position: absolute;
 }
-.img-atas img {
-    width: 400px;
-    height: 560px;
-    object-fit: cover;
-    border: 1px solid #eee;
-    box-shadow: 1px 2px 3px #ddd;
-    border-radius: 10px;
-    box-sizing: border-box;
-}
-.img3 {
-    width: 140px;
-    position: relative;
-    top: -220px;
-    margin-top: 0;
-    display: block;
-    margin-left: -10px;
-    height: auto;
-    float: left;
-}
-#judultengah-kanan {
-    width: 800px;
-    position: relative;
-    top: -210px;
-    margin-top: 0;
-    text-align: right;
-    font-size: 90px;
-    margin-right: 45px;
-    float: right;
-    font-family: "Italiana", serif;
-    font-weight: 400;
-    font-style: normal;
-}
-#texttengah-kanan {
-    width: 500px;
-    margin-top: 150px;
-    position: relative;
-    top: 10px;
-    margin-top: 0;
-    margin-right: -700px;
-    font-size: 90px;
-    text-align: left;
-    float: right;
-    font-family: "Poppins", serif;
-    font-size: small;
-    font-style: normal;
-}
-#judul-ourproduk {
-    margin: 420px;
-    width: 600px;
-    justify-content: center;
-    margin-top: 50px;
-    font-size: 90px;
-    font-family: "Italiana", serif;
-    font-weight: 400;
-    font-style: normal;
-}
+
+
 button {
     text-decoration: none;
     border: none;
@@ -195,11 +115,102 @@ a {
 a:hover {
     text-decoration: none;
 }
+
+.img2 {
+    width: 95px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 920px;
+    height: auto;
+    float: left;
+}
+#judul-kanan {
+    width: 390px;
+    margin-top: 250px;
+    margin-left: 850px;
+    position: absolute;
+    font-size: 90px;
+    text-align: right;
+    float: left;
+    font-family: "Poppins", serif;
+    font-size: small;
+    font-style: normal;
+}
+
+.img-atas {
+    margin: 300px;
+    margin-left: 40px;
+    margin-top: 350px;
+    display: grid;
+    position: absolute;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px;
+}
+.img-atas img {
+    width: 400px;
+    height: 560px;
+    object-fit: cover;
+    border: 1px solid #eee;
+    box-shadow: 1px 2px 3px #ddd;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.img3 {
+    width: 140px;
+    position: absolute;
+    top: 980px;
+    margin-top: 0;
+    display: block;
+    margin-left: -10px;
+    height: auto;
+    float: left;
+}
+#judultengah-kanan {
+    width: 800px;
+    position: absolute;
+    top: 980px;
+    margin-top: 0;
+    text-align: right;
+    font-size: 90px;
+    margin-left: 500px;
+    float: left;
+    font-family: "Italiana", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#texttengah-kanan {
+    width: 500px;
+    margin-top: 150px;
+    position: absolute;
+    top: 1200px;
+    margin-top: 0;
+    margin-left: 750px;
+    font-size: 90px;
+    text-align: left;
+    float: left;
+    font-family: "Poppins", serif;
+    font-size: small;
+    font-style: normal;
+}
+#judul-ourproduk {
+    margin: 420px;
+    width: 600px;
+    justify-content: center;
+    position: absolute;
+    margin-top: 1320px;
+    font-size: 90px;
+    font-family: "Italiana", serif;
+    font-weight: 400;
+    font-style: normal;
+}
 .filter-ourproduk {
     display: flex;
+    position: absolute;
     gap: 10px;
     justify-content: center;
-    margin-top: -380px;
+    margin-left: 250px;
+    margin-top: 1450px;
 
 }
 .filter-button {
@@ -214,10 +225,13 @@ a:hover {
     background-color: black;
     color: #E8E8E8;
 }
+
 .our-product {
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    position: absolute;
+    margin-top: 1520px;
+    margin-left: 50px;
     gap: 20px;
     flex-wrap: wrap;
 }
@@ -254,8 +268,12 @@ a:hover {
     font-weight: bold;
     justify-content: center;
 }
+
 .pagination {
     margin-top: 10px;
+    position: absolute;
+    margin-top: 2030px;
+    margin-left: 450px;
     justify-content: center;
     display: flex;
     align-items: center;
@@ -286,18 +304,20 @@ a:hover {
 }
 .img4 {
     width: 200px;
-    position: relative;
-    margin-right: -15px;
+    position: absolute;
+    margin-top: 2000px;
+    margin-left: 820px;
     height: auto;
     float: right;
 }
+
 #view-bycustomer {
     width: 620px;
     font-size: 90px;
     margin-left: 45px;
     margin-top: 20px;
-    position: relative;
-    top: 155px;
+    position: absolute;
+    top: 2150px;
     float: left;
     font-family: "Italiana", serif;
     font-weight: 400;
@@ -305,8 +325,10 @@ a:hover {
 }
 .product-view-customer {
     display: flex;
+    position: absolute;
     justify-content: center;
-    margin-top: 460px;
+    margin-top: 2400px;
+    margin-left: 50px;
     gap: 20px;
     flex-wrap: wrap;
 }
@@ -367,19 +389,21 @@ a:hover {
 }
 .img3 {
     width: 100px;
-    position: relative;
-    top: -100px;
+    position: absolute;
+    top: 2980px;
     margin-top: 0;
     display: block;
     margin-left: -10px;
     height: auto;
     float: left;
 }
+
 #followus {
     margin: 550px;
     width: 250px;
+    position: absolute;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 3000px;
     font-size: 50px;
     font-family: "Italiana", serif;
     font-weight: 400;
@@ -390,8 +414,8 @@ a:hover {
     width: 250px;
     justify-content: center;
     margin-top: -100px;
-    position: relative;
-    top: -440px;
+    position: absolute;
+    margin-top: 3050px;
     font-size: 96px;
     font-family: "Italiana", serif;
     font-weight: 400;
@@ -400,8 +424,9 @@ a:hover {
 .slider-instagram {
     display: flex;
     justify-content: center;
+    position: absolute;
     align-items: center;
-    margin-top: -750px;
+    margin-top: 3250px;
     gap: 60px;
     flex-wrap: nowrap;
 }
@@ -478,20 +503,42 @@ a:hover {
 }
 
 .hr {
-    margin-top: 100px;
+    margin-top: 3500px;
+    position: absolute;
+    margin-left: 0px;
 }
 
 .footer {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    position: absolute;
+    margin-top: 3600px;
     background-color: #E8E8E8;
     padding: 20px 40px;
     font-family: "Poppins", sans-serif;
 }
 
-.footer-section {
+.footer-section1 {
     display: flex;
+    width: 210px;
+    position: absolute;
+    margin-top: -110px;
+    flex-direction: column;
+}
+.footer-section2 {
+    display: flex;
+    width: 200px;
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 300px;
+    flex-direction: column;
+}
+.footer-section3 {
+    display: flex;
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 600px;
     flex-direction: column;
 }
 
@@ -512,6 +559,9 @@ a:hover {
 
 .newsletter {
     display: flex;
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 1000px;
     flex-direction: column;
 }
 
@@ -542,7 +592,10 @@ a:hover {
 }
 
 .hr1 {
-    margin-top: 10px;
+    position: absolute;
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 3680px;
 }
 
 .footer {
@@ -556,6 +609,8 @@ a:hover {
 
 .social-icons {
     display: flex;
+    position: absolute;
+    margin-top: 250px;
     gap: 15px;
 }
 
@@ -567,6 +622,10 @@ a:hover {
 
 .footer-links {
     display: flex;
+    position: absolute;
+    margin-top: 250px;
+    width: 400px;
+    margin-left: 960px;
     font-family: "Poppins",sans-serif;
     gap: 20px;
 }
@@ -575,4 +634,10 @@ a:hover {
     text-decoration: none;
     color: black;
     font-size: 14px;
+}
+.hr2 {
+    position: absolute;
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 350px;
 }
