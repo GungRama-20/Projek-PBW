@@ -4,7 +4,7 @@
 }
 #nav-kanan {
     width: 200px;
-    margin-left: 1100px;
+    margin-left: 1020px;
     position: absolute;
     height: 40px;
     float: right;
@@ -39,7 +39,20 @@
     flex: 1;
     fill: #868585;
 }
-
+.nav-kanan-power {
+    width: 42px;
+    height: 42px;
+    background-color: white;
+    position: absolute;
+    margin-left: 220px;
+    margin-top: -43px;
+    border: none;
+    border-radius: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
 #nav-kiri {
     display: flex;
     flex-direction: row;
